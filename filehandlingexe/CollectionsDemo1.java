@@ -20,5 +20,7 @@ public class CollectionsDemo1 {
 
         List<Integer> UnmodifiableCollection = Collections.unmodifiableList(numList);
         System.out.println(UnmodifiableCollection);
+        // UnmodifiableCollection.add(10); // This line would throw an
+        // UnsupportedOperationException if uncommented
     }
 }
